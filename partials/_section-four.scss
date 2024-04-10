@@ -1,0 +1,32 @@
+// SECTION-FOUR
+.section-four {
+  width: 100%;
+  background: rgb(255, 15, 92);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 15, 92, 1) 0%,
+    rgb(249, 95, 0) 100%
+  );
+  padding-bottom: 11rem;
+}
+
+// Shape Divider
+.custom-shape-divider-top-1712770043 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1712770043 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1712770043 .shape-fill {
+  fill: #ffffff;
+}

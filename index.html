@@ -1,10 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>uib-portfolio-project</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg  bg-dark  border-body sticky-top" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="#">HOME</a>
+          <a class="nav-link" href="#about">ABOUT</a>
+          <a class="nav-link" href="#works">WORKS</a>
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SECTION-1-->
+  <div style="position: relative">
+    <div class="container-fluid text-secondary section-one align-content-center">
+      <!-- Text-Slider -->
+      <div class="main">
+        <h1>WEB DEVELOPMENT<div class="roller">
+            <span id="rolltext">HTML<br />
+              CSS<br />
+              JavaScript<br />
+              <span id="spare-time">too much spare time?</span><br />
+          </div>
+        </h1>
+      </div>
+    </div>
+    <!-- Shape Divider-1 -->
+    <div class="custom-shape-divider-top-1712667226">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
+  </div>
+
+  <!-- SECTION-2 -->
+  <div class="section-two" id="about">
+    <h2></h2>
+  </div>
+  <!-- Cards Container-->
+  <div class="container section-two-container d-flex justify-content-center flex-wrap bg-light">
+    <!-- card-1 -->
+    <div class="card m-5" style="width: 18rem">
+      <img src="./assets/img/services/s1.svg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Web Development</h5>
+        <p class="card-text">
+          Web development designs, codes, and enhances user interaction on websites effectively.
+      </div>
+    </div>
+    <!-- card-2 -->
+    <div class="card m-5" style="width: 18rem">
+      <img src="./assets/img/services/s2.svg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Mobile App</h5>
+        <p class="card-text">
+          For mobile apps, development enhances user experience through design and coding.
+        </p>
+      </div>
+    </div>
+    <!-- card-3 -->
+    <div class="card m-5" style="width: 18rem">
+      <img src="./assets/img/services/s3.svg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">E-Commerce</h5>
+        <p class="card-text">
+          For e-commerce, development optimizes user experience with design and coding.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION-THREE -->
+  <div class="container-fluid section-three">
+    <div class="container">
+      <h2 class="display-4 text-center m-5 p-1">Modern Technologies and Tools</h2>
+    </div>
+  </div>
+  <div class="container d-flex justify-content-center">
+    <div class="row row-cols-2 row-cols-md-3 g-4 ">
+      <div class="col d-flex justify-content-center">
+        <div class="card h-100 border-0">
+          <img src="./assets/img/techs-tools/html5.png" class="card-img-top  techs-tools-img-html " alt="...">
+          <!--           <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div> -->
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <div class="card h-100 border-0">
+          <img src="./assets/img/techs-tools/css3.png" class="card-img-top  techs-tools-img" alt="...">
+          <!--           <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a short card.</p>
+          </div> -->
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <div class="card h-100 border-0">
+          <img src="./assets/img/techs-tools/sass.png" class="card-img-top  techs-tools-img-sass " alt="...">
+          <!--           <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
+          </div> -->
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <div class="card h-100 border-0">
+          <img src="./assets/img/techs-tools/bootstrap.png" class="card-img-top  techs-tools-img-bootstrap" alt="...">
+          <!--           <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div> -->
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <div class="card h-100 border-0">
+          <img src="./assets/img/techs-tools/react.png" class="card-img-top  techs-tools-img-react" alt="...">
+          <!--           <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div> -->
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <div class="card h-100 border-0">
+          <img src="./assets/img/techs-tools/nodejs.png" class="card-img-top  techs-tools-img-nodejs " alt="...">
+          <!--           <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION-FOUR -->
+  <div class=" section-four" style="position: relative;" id="works">
+    <h2 class="display-4 text-center mb-5 pt-5 pb-4 text-white">Recent Works</h2>
+
+    <div class="container">
+
+      <div class="d-flex justify-content-center flex-wrap row row-cols-2 row-cols-md-3 g-4 ">
+
+        <div class="card m-5 wobble-hor-bottom " style="width: 20rem;">
+          <img src="./assets/img/services/s1.svg" class="card-img-top" alt="...">
+          <!--           <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div> -->
+        </div>
+
+        <div class="card m-5 wobble-hor-bottom" style="width: 20rem;">
+          <img src="./assets/img/services/s2.svg" class="card-img-top" alt="...">
+          <!--           <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div> -->
+        </div>
+
+        <div class="card m-5 wobble-hor-bottom" style="width: 20rem;">
+          <img src="./assets/img/services/s3.svg" class="card-img-top" alt="...">
+          <!--           <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div> -->
+        </div>
+
+        <div class="card m-5 wobble-hor-bottom" style="width: 20rem;">
+          <img src="./assets/img/services/s2.svg" class="card-img-top" alt="...">
+          <!--           <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div> -->
+        </div>
+        <div class="card m-5 wobble-hor-bottom" style="width: 20rem;">
+          <img src="./assets/img/services/s3.svg" class="card-img-top" alt="...">
+          <!--           <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div> -->
+        </div>
+
+        <div class="card m-5 wobble-hor-bottom" style="width: 20rem;">
+          <img src="./assets/img/services/s1.svg" class="card-img-top" alt="...">
+          <!--           <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- Shape Divider-2 -->
+      <div class="custom-shape-divider-top-1712770043">
+        ">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT HEADER-->
+  <div class="contact-div-header">
+    <h2 class="display-4 text-center text-white">Contact</h2>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="contact-div d-flex align-items-center" id="contact">
+    <div class="container bg-light w-100 h-50 d-flex justify-content-center align-items-center"
+      style="border-radius: 10px;">
+      <div class="w-50">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" name="" id="" class="btn btn-primary btn-block">Send</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <div class="footer-bottom container-fluid text-light d-flex justify-content-center align-items-center">
+    uib-portfolio-project
+  </div>
+
+
+
+
+  <!-- BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
